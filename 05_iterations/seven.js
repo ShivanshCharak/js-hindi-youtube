@@ -6,5 +6,6 @@ const newNums = myNumers
                 .map((num) => num * 10 )
                 .map( (num) => num + 1)
                 .filter( (num) => num >= 40)
+here the result from first map will be passed to the secind map it is also called as method chaining
 
 console.log(newNums);
